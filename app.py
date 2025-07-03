@@ -77,9 +77,9 @@ if unified_card("📊 Show Bar Chart: Avg Rating vs Sentiment", "#e0f2ff", "bar_
         barmode='group', title="Consumer vs Media Perception Across Industries"
     )
     st.plotly_chart(fig1, use_container_width=True)
-    with st.expander("📌 Insight"):
+    with st.expander("📌 Insights"):
         st.markdown("""
-        #### 📊 Insight: Avg Rating vs Media Sentiment
+        #### 📊 Insights: Avg Rating vs Media Sentiment
 
         - Consumer and media sentiment don’t always align, **Business and Science have high ratings but low sentiment**.
         - **Education stands out** with highest sentiment but lowest customer rating, a classic **perception vs reality gap**.
@@ -104,9 +104,9 @@ if unified_card("🧩 Show Pie Chart: Media Article Distribution", "#eaffea", "p
         color_discrete_sequence=px.colors.sequential.RdBu
     )
     st.plotly_chart(fig2, use_container_width=True)
-    with st.expander("📌 Insight"):
+    with st.expander("📌 Insights"):
         st.markdown("""
-        #### 🧩 Insight: Media Article Distribution by Industry
+        #### 🧩 Insights: Media Article Distribution by Industry
 
         - **Over 50%** of media coverage is concentrated on Business, showing it’s the **most visible and scrutinized** sector.
         - **Science and Tech receive similar attention**, yet have different sentiment and rating dynamics.
@@ -131,9 +131,9 @@ if unified_card("📈 Show Line Chart: Weighted Index vs Rating", "#fffbdc", "li
         markers=True, title='Weighted Sentiment vs Company Rating'
     )
     st.plotly_chart(fig3, use_container_width=True)
-    with st.expander("📌 Insight"):
+    with st.expander("📌 Insights"):
         st.markdown("""
-        #### 📈 Insight: Weighted Sentiment vs Company Rating
+        #### 📈 Insights: Weighted Sentiment vs Company Rating
 
         - **Business has the highest weighted sentiment**, due to sheer article volume, not necessarily positivity.
         - **Tech shows low influence and mid-level trust**, could be due to PR neglect or controversy.
@@ -158,9 +158,9 @@ if unified_card("🔵 Show Bubble Chart: Sentiment vs Rating", "#ffe0e0", "bubbl
         title='Sentiment vs Rating with Media Volume'
     )
     st.plotly_chart(fig4, use_container_width=True)
-    with st.expander("📌 Insight"):
+    with st.expander("📌 Insights"):
         st.markdown("""
-        #### 🔵 Insight: Sentiment vs Rating with Media Volume
+        #### 🔵 Insights: Sentiment vs Rating with Media Volume
 
         - **Bubble size adds depth**, Business has the largest media footprint and highest user approval.
         - **Education floats high on sentiment**, but user rating is lowest, **disconnect warning**.
@@ -175,5 +175,5 @@ st.markdown("""
             📍 **Developed by Vivek Joshi** \n
             _Powered by Streamlit & Plotly_ \n
             _**Data Source:** Curated from company reviews and news articles with VADER sentiment analysis_ \n
-            __[Github Link]__
+            __[Github Link](https://github.com/VivekJoshi-2004/Industry-Sentiment-Intelligence-Dashboard)__
             """)
