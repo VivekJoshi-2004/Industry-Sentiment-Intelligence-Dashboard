@@ -2,14 +2,14 @@
 
 An interactive Streamlit dashboard that analyzes and visualizes **public perception vs media sentiment** across industries using real-world company reviews and news articles.
 
-> Built with 💡 critical thinking, data storytelling, and clean UI to impress recruiters and industry stakeholders.
+> Built with 💡 critical thinking, data storytelling, and clean UI.
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 [Click here to try the live app](https://your-username-your-repo-name.streamlit.app)  
-*(Replace this with your actual Streamlit app link)*
+🔗 [Click here to try the live app]((https://industry-sentiment-intelligence-dashboard.streamlit.app/))  
+
 
 ---
 
@@ -60,15 +60,14 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
+```
 
 📡 Deployment
 This app is deployed on Streamlit Cloud:
 
-Push to GitHub.
-
-Go to streamlit.io/cloud
-
-Connect your repo and deploy app.py.
+- Push to GitHub.
+- Go to streamlit.io/cloud
+- Connect your repo and deploy app.py.
 
 📌 Dataset Overview
 news_sentiment.csv: VADER sentiment analysis of articles mapped to industries
@@ -76,16 +75,25 @@ news_sentiment.csv: VADER sentiment analysis of articles mapped to industries
 Final CSV created by aggregating and labeling all metrics for analysis
 
 📈 Sample Visuals
+![image](https://github.com/user-attachments/assets/568eea1d-efef-4444-9862-62d199327317)
+
 Chart	Description
 📊 Bar Chart	Compare Avg Rating vs Sentiment
+![image](https://github.com/user-attachments/assets/49b51176-f9eb-47a0-b70d-41c14345e2a7)
+
 🧩 Pie Chart	Media Coverage Distribution
+![image](https://github.com/user-attachments/assets/667a2810-da58-4071-b56b-fec78ce85c09)
+
 📈 Line Chart	Weighted Sentiment Index vs Rating
+![image](https://github.com/user-attachments/assets/aab3395b-dcdc-4b0d-a4a1-5eaa38f2b7c9)
+
 🔵 Bubble Chart	Sentiment vs Rating with Media Volume
+![image](https://github.com/user-attachments/assets/a8f42964-f1d1-40ac-9134-a5a31f9e7c1e)
+
 
 👨‍💻 Author
 Vivek Joshi
-📧 [your.email@example.com]
-🔗 LinkedIn
+
 🧠 Passionate about using AI, data & automation to solve real-world problems
 
 ⭐ Star this Repo
