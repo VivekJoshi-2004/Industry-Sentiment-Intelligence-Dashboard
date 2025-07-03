@@ -8,7 +8,7 @@ An interactive Streamlit dashboard that analyzes and visualizes **public percept
 
 ## 🚀 Live Demo
 
-🔗 [Click here to try the live app]((https://industry-sentiment-intelligence-dashboard.streamlit.app/))  
+🔗 [Click here to try the live app](https://industry-sentiment-intelligence-dashboard.streamlit.app/)  
 
 
 ---
@@ -16,8 +16,11 @@ An interactive Streamlit dashboard that analyzes and visualizes **public percept
 ## 📁 Project Structure
 
 ├── app.py # Main Streamlit app
+
 ├── final_data.csv # Cleaned and aggregated dataset
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # This file
 
 
