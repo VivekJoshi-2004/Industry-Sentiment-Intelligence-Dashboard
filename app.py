@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load your final CSV
-df = pd.read_csv(r"C:\Users\newt4\OneDrive\Desktop\Sentiment_Analysis\final_data.csv")
+df = pd.read_csv(r"final_data.csv")
 
 st.set_page_config(page_title="Industry Sentiment Dashboard", layout="wide")
 st.title("📊 Industry Sentiment Dashboard")
